@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import {displayGuilda} from './components/displayGuilda'
-//teste commit
+
 function App() {
  const [guilda, setGuilda] = useState(() => {
     const data = localStorage.getItem('guilda')
